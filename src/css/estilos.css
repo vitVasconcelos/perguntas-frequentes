@@ -1,0 +1,87 @@
+body{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #f9eeff;
+    font-family: "Work Sans";
+}
+.background-top {
+   
+    background-image: url("/src/imagens/background-pattern-desktop.svg");
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+   
+  }
+
+main{
+    width: 500px;
+    
+    background-color: white;
+    border: 2px solid white;
+    text-align: justify;
+    padding: 1rem;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+ 
+}
+.titulo{
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  font-size: 20px;
+  margin-top: 0.5rem;
+  color: #301534;
+}
+.titulo img{
+  width: 35px; 
+  height: auto;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 2rem; /* espaço para a seta */
+  display: flex; /* ocupa largura total */
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #301534;
+  }
+  summary::after {
+    content: url("/src/imagens/icon-plus.svg");
+    position: absolute;
+    right: 1rem; /* distância da borda direita da div pai */
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+  }
+
+  .texto-summary {
+    max-width: 85%; /* você pode ajustar para 80%, 90%... */
+    word-wrap: break-word;
+    line-height: 1.4;
+  }
+  details[open] summary::after {
+    content: url("/src/imagens/icon-minus.svg");  
+  }
+.questoes {
+    margin-bottom: 0.5rem; /* Espaço entre os items */
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+   }
+.questoes:last-child {
+    border-bottom: none;
+}
+p{
+  color: gray;
+  text-align: left;
+}
