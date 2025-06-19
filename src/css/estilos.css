@@ -38,7 +38,7 @@ main{
   align-items: center; 
   gap: 10px; 
   font-size: 20px;
-  margin-top: 0.5rem;
+  
   color: #301534;
 }
 .titulo img{
@@ -77,6 +77,8 @@ summary {
     margin-bottom: 0.5rem; /* Espaço entre os items */
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    margin-left: 1rem;
+    margin-right: 1rem;
    }
 .questoes:last-child {
     border-bottom: none;
