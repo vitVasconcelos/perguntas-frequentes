@@ -1,5 +1,6 @@
 ❓ Projeto FAQs (Perguntas Frequentes)
 Este é um projeto de componente de perguntas frequentes (FAQs) com estilo moderno e responsivo, ideal para páginas que precisam oferecer informações rápidas de forma clara e organizada.
+Este projeto foi desenvolvido para um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz
 
 📸Prévia
 ![image](https://github.com/user-attachments/assets/bb09ac78-5fc2-47bd-8770-b9cf72e922f9)
