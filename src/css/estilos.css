@@ -49,8 +49,8 @@ summary {
   list-style: none;
   cursor: pointer;
   position: relative;
-  padding-right: 2rem; /* espaço para a seta */
-  display: flex; /* ocupa largura total */
+  padding-right: 2rem; 
+  display: flex; 
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -59,14 +59,14 @@ summary {
   summary::after {
     content: url("/src/imagens/icon-plus.svg");
     position: absolute;
-    right: 1rem; /* distância da borda direita da div pai */
+    right: 1rem;
     top: 50%;
     transform: translateY(-50%);
     transition: transform 0.3s ease;
   }
 
   .texto-summary {
-    max-width: 85%; /* você pode ajustar para 80%, 90%... */
+    max-width: 85%;
     word-wrap: break-word;
     line-height: 1.4;
   }
@@ -74,7 +74,7 @@ summary {
     content: url("/src/imagens/icon-minus.svg");  
   }
 .questoes {
-    margin-bottom: 0.5rem; /* Espaço entre os items */
+    margin-bottom: 0.5rem; 
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
     margin-left: 1rem;
