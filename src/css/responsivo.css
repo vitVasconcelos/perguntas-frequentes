@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .background-top{
-        background-image: url("/src/imagens/background-pattern-mobile.svg");
+        background-image: url("../imagens/background-pattern-mobile.svg");
         width: 100%;
     }
     main{
