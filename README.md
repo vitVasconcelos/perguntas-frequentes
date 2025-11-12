@@ -2,6 +2,8 @@
 Este é um projeto de componente de perguntas frequentes (FAQs) com estilo moderno e responsivo, ideal para páginas que precisam oferecer informações rápidas de forma clara e organizada.
 Este projeto foi desenvolvido para um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz
 
+Visite o site:  https://vitvasconcelos.github.io/perguntas-frequentes/
+
 📸Prévia
 ![image](https://github.com/user-attachments/assets/bb09ac78-5fc2-47bd-8770-b9cf72e922f9)
 ![image](https://github.com/user-attachments/assets/27df8e3a-4e4b-4c96-a404-4745d48e72a5)
